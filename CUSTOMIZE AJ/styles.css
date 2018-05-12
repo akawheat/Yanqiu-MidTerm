@@ -1,0 +1,282 @@
+body {
+    margin: 30px;
+}
+
+.whole {
+	background-color: gray;
+}
+
+.jumbotron {
+		background-color: #434343;
+}
+
+.header {
+	margin-bottom: 10px;
+}
+
+.title {
+	color: white;
+}
+
+.save {
+	color: white;
+}
+
+.structure {
+	background-color: #434343;
+}
+
+.line {
+	color: white;
+}
+
+.dropdown, .menu {
+	display: inline-block;
+}
+
+.options {
+	text-align: center;
+}
+
+.four-btns {
+	width: 6.5em;
+	height: 3em;
+	background-color: #D8D8D8;
+	color: #434343;
+}
+
+.color-picker {
+	margin-left: 6.5%;
+}
+
+/* Buttons */
+.dropdown-menu {
+	min-width: 5.5rem;
+}
+
+.color-picker {
+	width: 5em;
+}
+
+.btn-base-red {
+	width: 2em;
+	height: 2em;
+	background-color: red;
+}
+
+.btn-base-green {
+	width: 2em;
+	height: 2em;
+	background-color: green;
+}
+
+.btn-linning-red {
+	width: 2em;
+	height: 2em;
+	background-color: red;
+}
+
+.btn-linning-green {
+	width: 2em;
+	height: 2em;
+	background-color: green;
+}
+
+.btn-lace-red {
+	width: 2em;
+	height: 2em;
+	background-color: red;
+}
+
+.btn-lace-green {
+	width: 2em;
+	height: 2em;
+	background-color: green;
+}
+
+.btn-midsole-red {
+	width: 2em;
+	height: 2em;
+	background-color: red;
+}
+
+.btn-midsole-green {
+	width: 2em;
+	height: 2em;
+	background-color: green;
+}
+
+/* For Change the Color */
+
+#original {
+	width: 500px;
+	height: 326px;
+	background-image: url("aj18.png");
+}
+
+#base-red {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 500px;
+	height: 326px;
+}
+
+.base-red {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 500px;
+	height: 326px;
+	background-image: url("basered.png");
+}
+
+#base-green {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 500px;
+	height: 326px;
+}
+
+.base-green {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 500px;
+	height: 326px;
+	background-image: url("basegreen.png");
+}
+
+#linning-red {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 500px;
+	height: 326px;
+}
+
+.linning-red {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 500px;
+	height: 326px;
+	background-image: url("linningred.png");
+}
+
+#linning-green {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 500px;
+	height: 326px;
+}
+
+.linning-green {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 500px;
+	height: 326px;
+	background-image: url("linninggreen.png");
+}
+
+#lace-red {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 500px;
+	height: 326px;
+}
+
+.lace-red {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 500px;
+	height: 326px;
+	background-image: url("lacered.png");
+}
+
+#lace-green {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 500px;
+	height: 326px;
+}
+
+.lace-green {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 500px;
+	height: 326px;
+	background-image: url("lacegreen.png");
+}
+
+#midsole-red {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 500px;
+	height: 326px;
+}
+
+.midsole-red {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 500px;
+	height: 326px;
+	background-image: url("midsolered.png");
+}
+
+#midsole-green {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 500px;
+	height: 326px;
+}
+
+.midsole-green {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 500px;
+	height: 326px;
+	background-image: url("midsolegreen.png");
+}
+
+/* For Popup Styles */
+
+.second-jt {
+	margin-top: 20px;
+	width: 90%;
+}
+
+label {
+	color: white;
+}
+
+.title-signin {
+	text-align: center;
+	margin-top: 30px;
+	color: #434343;
+}
+
+.first-btns, .second-btns {
+	text-align: center;
+}
+
+.second-btns {
+	margin-top: 10px;
+}
+
+.facebook {
+	width:24px;
+	height:24px
+}
+
+input {
+	background-color: #D8D8D8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

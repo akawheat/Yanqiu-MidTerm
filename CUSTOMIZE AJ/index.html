@@ -1,0 +1,168 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+    </head>
+    <body class="whole">
+        <div class="container">
+            <div class="jumbotron">
+                <div class="clearfix header">
+                    <h2 class="title text-uppercase float-left"> customize aj </h2>
+
+                    <button type="button" class="btn material-icons float-right person" data-toggle="modal" data-target="#exampleModalCenter">person</button>
+
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                                <h3 class="title-signin">Signin Your Account</h3>
+
+                                <div class="jumbotron mx-auto second-jt">
+                                    <div role="form" id="sigupform">
+                                        <div class="form-group">
+                                            <label>Email</label>
+
+                                            <input type="email" id="form-email" class="form-control" placeholder="Enter your email">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Password</label>
+
+                                            <input type="password" id="form-password" class="form-control" placeholder="Enter Password">
+                                        </div>
+
+                                        <div>
+                                            <div class="first-btns">
+                                                <input type="submit" id="signup" class="btn" value="Sign Up" onclick="handleSignUp();">
+
+                                                <input type="submit" id="signin" class="btn" value="Sign In" onclick="handleSignIn();">
+
+                                                <input type="submit" id="signout" class="btn" value="Sign Out" onclick="handleSignOut();">
+                                            </div>
+
+                                            <div class="second-btns">
+                                                <input type="submit" id="fblogin" class="btn" value="Facebook Login"onclick="handleFBLogin();">
+
+                                                <input type="submit" id="googlelogin" class="btn" value="Google Login" onclick="handlegoogleLogin();">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+
+                
+
+
+
+                    <div class="options">
+                        <div class="menu">
+                            <div class="dropdown rounded-0">
+                                <button class="btn dropdown-toggle four-btns" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Base
+                                </button>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <div class="color-picker">
+                                        <button type="button" class="btn btn-base-red"></button>
+
+                                        <button type="button" class="btn btn-base-green"></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="dropdown rounded-0">
+                                <button class="btn dropdown-toggle four-btns" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Lining
+                                </button>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <div class="color-picker">
+                                        <button type="button" class="btn btn-linning-red"></button>
+
+                                        <button type="button" class="btn btn-linning-green"></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="dropdown rounded-0">
+                                <button class="btn dropdown-toggle four-btns" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Lace
+                                </button>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <div class="color-picker">
+                                        <button type="button" class="btn btn-lace-red"></button>
+
+                                        <button type="button" class="btn btn-lace-green"></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="dropdown rounded-0">
+                                <button class="btn dropdown-toggle four-btns" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Midsole
+                                </button>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <div class="color-picker">
+                                        <button type="button" class="btn btn-midsole-red"></button>
+
+                                        <button type="button" class="btn btn-midsole-green"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <div id="original" class="mx-auto">
+                    <div id="base-red">
+                        <div id="base-green">
+                            <div id="linning-red">
+                                <div id="linning-green">
+                                    <div id="lace-red">
+                                        <div id="lace-green">
+                                            <div id="midsole-red">
+                                                <div id="midsole-green"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <script src="functions.js"></script>
+
+
+        <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyAuM6yySeB9XUfZ0-nFamapOjF0hMp2Wrk",
+        authDomain: "spring-break-app.firebaseapp.com",
+        databaseURL: "https://spring-break-app.firebaseio.com",
+        projectId: "spring-break-app",
+        storageBucket: "spring-break-app.appspot.com",
+        messagingSenderId: "51077104483"
+    };
+    firebase.initializeApp(config);
+    </script>
+
+    <script src="auth.js"></script>
+    </body>
+</html>
